@@ -152,6 +152,11 @@ h2 {
 .social-icons{
   padding: 20px 10px;
 }
+.social-icons:hover{
+  color: #ff4c68;
+  transform: scale(2);
+  transition: 0.3s all ease;
+}
 @media (max-width:1028px) {
 
 #title{
@@ -162,6 +167,7 @@ h2 {
 .title-img{
   position: static;
   transform: rotate(0);
-
+  margin-top: 10%;
+  width: 60%;
 }
 }
